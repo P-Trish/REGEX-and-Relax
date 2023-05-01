@@ -1,10 +1,16 @@
-# Title (replace with your title)
+# REGEX and Relax: A Tutorial Gist On Matching An Email 
 
-Introductory paragraph (replace this with your text)
+A regular expression, or regex is a sequence of characters that defines a specific search pattern.  It can be used to find certain patters of characters within a string, in this case an email.  
+
+This tutorial demonstarates how a regex functions by breaking down each part of an email expression and describing what it does.  
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this gist, I provide a tutorial of how the regex ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/``` is used to match an email value and how each component works.
+
+The different parts of the above email regex have specific roles in ensuring that a user inputs an email address that starts with an undetermined amount of characters before the @ symbol and ends with a domain name.
+
 
 ## Table of Contents
 
@@ -18,6 +24,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+
+```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/```
+
+
 
 ### Anchors
 
@@ -37,4 +47,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Patricia Alberto is a full-stack bootcamp student ready to apply her new skills and become a full-stack web developer.  Check out her works here: https://github.com/P-Trish 
